@@ -1,0 +1,73 @@
+@media (max-width: 660px) {
+    html {
+        font-size: 60.5%;
+        overflow-x: hidden;
+    }
+
+    .main-heading h1,
+    .name,
+    #greetings-container {
+        font-size: 13rem;
+    }
+
+    .slow-living-details-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .scope-of-work-container,
+    .scope-of-work-bg-image {
+        visibility: hidden;
+    }
+
+    .resume-table,
+    th,
+    td {
+        width: 100%;
+
+    }
+
+    .resume-container {
+        margin: 3% 3%;
+
+    }
+
+    .resume-image {
+        visibility: hidden;
+    }
+
+    .table-experience {
+        width: 100%;
+        margin: 3%;
+        right: 3%;
+    }
+
+    .table-experience th {
+        width: 27%;
+    }
+
+    .navbar-link {
+        margin: 0 1.3rem;
+    }
+
+    .about-table td {
+        width: 15%;
+        font-size: 1.9rem;
+        padding: 1rem;
+    }
+
+    .navbar {
+        width: 90%;
+    }
+
+    .laptop-layout {
+        width: 120px;
+    }
+
+    .laptop-layout {
+        width: 90%;
+        height: 50vh;
+        margin-left: 5%;
+       /* background-image: ; */
+    }
+}

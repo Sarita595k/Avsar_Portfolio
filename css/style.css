@@ -1,0 +1,602 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* .protest-revolution-regular {
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+   */
+body {
+    background-image: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    /* background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%); */
+}
+
+.container {
+    margin: 2rem;
+    padding-top: 10em;
+    text-align: center;
+}
+
+#top-hello-section p {
+    font-size: 2rem;
+}
+
+#top-hello-section p span i {
+    color: blueviolet;
+}
+
+#greetings-container {
+    font-size: 19rem;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 9rem 0 2rem 0;
+    color: #3a47d5;
+}
+
+.top-name {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding-bottom: 9rem;
+}
+
+.second-container {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.main-heading h2 {
+    font-size: 3rem;
+    padding-top: 9rem;
+}
+
+.main-heading h1,
+.name {
+    font-size: 19rem;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background: linear-gradient(to right, #00d2ff 0%, #3a47d5 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+
+.main-heading {
+    font-size: 3rem;
+    text-align: center;
+    /* opacity: 0.8; */
+}
+
+.main-heading-girl-image {
+    height: 27rem;
+    width: 27rem;
+}
+
+.main-heading-paragraph {
+    font-size: 2.3rem;
+}
+
+/* span.wave-hand{
+    transform: scale(1.3);
+} */
+
+.slow-living-container {
+    text-align: center;
+    padding-top: 7rem;
+}
+
+.slow-living-container h1 {
+    font-size: 9rem;
+}
+
+.slow-living-container p {
+    font-size: 3rem;
+}
+
+/* slow living grid section  */
+
+.slow-living-details-container {
+    display: flex;
+    flex-direction: row;
+    margin: 3% 7%;
+    align-items: center;
+    justify-content: center;
+}
+
+.slow-living-grid-1,
+.slow-living-grid-2,
+.slow-living-grid-3 {
+    /* background-color: white; */
+    border-radius: 3rem;
+    margin: 0 3rem 0 0;
+}
+
+.slow-living-grid-1 {
+    background-image: url(../images/globe/world-globe-removebg-preview.png);
+    background-size: cover;
+}
+
+.slow-living-grid-1 h1 {
+    font-size: 3.7rem;
+    text-transform: capitalize;
+}
+
+.slow-living-grid-1 {
+    background-color: white;
+    width: 25vw;
+    height: 29vw;
+    padding: 2rem;
+}
+
+.slow-living-grid-2,
+.slow-living-grid-3 {
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+}
+
+.subgrid-1,
+.grid3-subgrid1,
+.subgrid-2,
+.grid3-subgrid2 {
+    width: 19vw;
+    height: 13vw;
+    margin-bottom: 3rem;
+    padding: 3rem;
+    background-color: white;
+    border-radius: 3rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.subgrid-1 h3,
+.grid3-subgrid1 h3,
+.subgrid-2 h3,
+.grid3-subgrid2 h3 {
+    font-size: 2.3rem;
+}
+
+.icons-grid,
+.icons-grid-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.3rem;
+}
+
+.icons-grid img,
+.icons-grid-2 img {
+    width: 3.7rem;
+    height: 3.3rem;
+    margin: 0 .2rem 0 0;
+}
+
+.subgrid-1 p,
+.grid3-subgrid1 p,
+.subgrid-2 p,
+.grid3-subgrid2 p {
+    padding-top: 1.3rem;
+    font-size: 1.5rem;
+}
+
+.grid3-subgrid2 {
+    background-image: url(../images/globe/time-removebg-preview.png);
+    background-size: cover;
+}
+
+/* scope of work section  */
+#scope-of-work {
+    margin: 7% 9%;
+    z-index: 3;
+}
+
+.scope-of-work-container h3 {
+    font-size: 2.1rem;
+    color: #3a47d5;
+}
+
+/* .scope-grid h3{
+    padding-bottom: 39%;
+} */
+/* .scope-grid h3{
+    padding-top:-7%;
+} */
+
+.scope-of-work-container {
+    position: absolute;
+}
+
+.scope-of-work-bg-image {
+    position: relative;
+    margin-top: -6%;
+    margin-left: 35%;
+}
+
+.scope-of-work-bg-image img {
+    width: 49vw;
+    height: 37vw;
+}
+
+.scope1 {
+    padding: 17rem;
+}
+
+.scope3 {
+    padding: 13rem;
+}
+
+.scope-grid,
+.scope-grid-2 {
+    display: flex;
+    flex-direction: row;
+    /* margin: 0% 0 10% 0; */
+}
+
+.scope4 {
+    padding: 7rem 15rem;
+}
+
+.scope5 {
+    padding: 20rem 7.3rem;
+}
+
+.scope6 {
+    padding: 13rem;
+}
+
+/* section for resume  */
+.resume-container {
+    margin: 3% 19%;
+    /* display: flex;
+    flex-direction: row;
+    flex: 0 0 30%;
+    padding: 2rem; */
+}
+
+.resume-table,
+th,
+td {
+    width: 80%;
+    padding: 1.7rem;
+    border: .2rem solid black;
+    border-collapse: collapse;
+}
+
+.resume-table h1 {
+    font-size: 5.7rem;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.resume-image {
+    /* margin-bottom:-10rem; */
+    margin-top: 5rem;
+    margin-left: 55%;
+    z-index: 27;
+    position: absolute;
+}
+
+.resume-table p {
+    font-size: 1.7rem;
+}
+
+.resume-table td a {
+    text-decoration: none;
+    color: blue;
+    font-size: 1.7rem;
+}
+
+.made-with {
+    opacity: .6;
+    margin-bottom: 3rem;
+}
+
+.scanner {
+    background-image: url(../images/logo/scanner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+.table-experience {
+    width: 60%;
+    margin-left: 19%;
+}
+
+.table-experience th {
+    width: 37%;
+}
+
+.resume {
+    font-size: 5rem;
+    color: #3a47d5;
+}
+
+.table-experience p {
+    font-size: 1.7rem;
+}
+
+.navbar {
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.navbar-link {
+    margin: 0 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(32, 138, 180);
+}
+
+.navbar-link i {
+    font-size: 2.8rem;
+}
+
+.navbar-link i:hover {
+    color: darkblue;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar-link span {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: .5rem;
+}
+
+.table-experience.about-table {
+    border: none;
+    padding: .3rem;
+}
+
+.table-experience p {
+    font-weight: 200;
+}
+
+.navbar-link span:hover {
+    color: darkblue;
+}
+
+.about-table td {
+    width: 30%;
+    font-size: 1.9rem;
+    padding: 2.7rem;
+}
+
+.connect h3 {
+    font-size: 3rem;
+    padding-top: 3rem;
+}
+
+.connect .scanner-2 {
+    background-image: url(../images/logo/scanner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+/* project description begins here  */
+#project-section{
+    margin-top: 13rem;
+}
+.project-name {
+    font-size: 7rem;
+    color: blue;
+}
+
+.connect a {
+    text-decoration: none;
+    font-size: 2.3rem;
+}
+
+.laptop-layout {
+    top: 0;
+    left: 0;
+    width: 1280px;
+    height: 720px;
+    margin-left: 3%;
+    border-radius: 0;
+    -webkit-transform: scale(.99);
+    -ms-transform: scale(.99);
+    transform: scale(.99);
+
+}
+
+.device_content {
+    position: absolute;
+    overflow-y: scroll;
+    z-index: 1;
+    transform: scale(0.6);
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 96%;
+    border-radius: 43px;
+}
+
+.laptop-layout iframe {
+    width: 100%;
+    height: 90%;
+    margin: 0;
+    overflow-y: scroll;
+    border: .7rem solid rgb(106, 106, 239);
+}
+
+/* iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-end-end-radius: ;
+} */
+.tablet-container {
+    position: absolute;
+    width: 48rem;
+    /* Set tablet width as per your design */
+    height: 64rem;
+    /* Set tablet height as per your design */
+    margin: -47rem auto auto 91rem;
+    overflow: hidden;
+    z-index: 33;
+}
+
+.tablet-iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 43px;
+    border: .7rem solid rgb(106, 106, 239);
+    /* border-bottom: 5rem solid blue; */
+}
+
+.iframe-container {
+    position: absolute;
+    width: 32rem;
+    height: 59rem;
+    z-index: 47;
+    margin: -37rem auto auto 78%;
+    /* margin-left:70%; */
+}
+
+.mobile-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 43px;
+    border: .7rem solid rgb(106, 106, 239);
+}
+
+#project-second {
+    margin-top: 33rem;
+    text-align: center;
+}
+
+#project-second .laptop-layout {
+    margin-left: 7%;
+}
+
+#project-third {
+    margin-top: 13rem;
+    text-align: center;
+    margin-left: 7%;
+}
+
+.footer-image {
+    /* text-align: center; */
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13rem;
+}
+
+
+.footer-image img {
+    /* background-image: url(../images/wave-image.png); */
+    image-orientation: flip;
+    /* text-align: center; */
+}
+
+.footer-image h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+#overlay-text-container {
+    background-color: black;
+}
+
+.overlay-text {
+    position: relative;
+    color: white;
+    font-size: 3rem;
+    padding: .7rem;
+    z-index: 44;
+    /* background-color: black; */
+}
+/* bottom copyright section  */
+.copyright {
+    background-image: linear-gradient(to right, #4cd9fe, #6da1fc);
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 0;
+}
+
+.copyright a {
+    text-decoration: none;
+    color: rgb(7, 76, 225);
+}
+
+/* scroll btn section  */
+
+.scroll-btn, .scroll-btn-2 {
+    /* position: fixed; */
+    text-decoration: none;
+    margin-top: -7rem;
+    right: 5rem;
+    background: 7rem;
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: #077889;
+    position: absolute;
+    display: flex;
+    z-index: 27;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: white;
+    border-radius: 100%;
+    box-shadow: 0 0.1rem 0.3rem #4b4b4b;
+    /* border-radius: 50%; */
+}
+
+.close-button {
+    position: absolute;
+    top: 5%;
+    right: 26%;
+    background-color: transparent;
+    color: black;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.close-button:hover {
+    background-color: transparent;
+    color: white;
+}
