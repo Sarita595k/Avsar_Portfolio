@@ -16,31 +16,42 @@ html {
   }
    */
 body {
-    background-image: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    /* background-image: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%); */
     /* background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%); */
 }
 
-.container {
-    margin: 2rem;
-    padding-top: 10em;
-    text-align: center;
+.container-bg {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    clip-path: polygon(50% 0%, 100% 0, 100% 76%, 0 100%, 0 0);
 }
+
+.container {
+    width: 100%;
+    top: 7rem;
+    text-align: center;
+    position: absolute;
+}
+
 
 #top-hello-section p {
     font-size: 2rem;
 }
 
 #top-hello-section p span i {
-    color: blueviolet;
+    color: rgb(101, 62, 137);
 }
 
 #greetings-container {
-    font-size: 19rem;
+    font-size: 16rem;
     font-family: "Protest Revolution", sans-serif;
     font-weight: 400;
     font-style: normal;
     padding: 9rem 0 2rem 0;
-    color: #3a47d5;
+    color: #151943;
+    text-shadow: .9rem 2rem 2rem #077889;
 }
 
 .top-name {
@@ -49,6 +60,24 @@ body {
     padding-bottom: 9rem;
 }
 
+/* navbar section styles  */
+#navbarContainer {
+    width: 100%;
+    height: 10vh;
+    background-color: #d4d0d0;
+    position: absolute;
+}
+
+#navbarContainer ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navbar-item {}
+
+/* second container styles  */
 .second-container {
     text-align: center;
     text-transform: capitalize;
@@ -398,9 +427,10 @@ td {
 }
 
 /* project description begins here  */
-#project-section{
+#project-section {
     margin-top: 13rem;
 }
+
 .project-name {
     font-size: 7rem;
     color: blue;
@@ -540,6 +570,7 @@ td {
     z-index: 44;
     /* background-color: black; */
 }
+
 /* bottom copyright section  */
 .copyright {
     background-image: linear-gradient(to right, #4cd9fe, #6da1fc);
@@ -557,7 +588,8 @@ td {
 
 /* scroll btn section  */
 
-.scroll-btn, .scroll-btn-2 {
+.scroll-btn,
+.scroll-btn-2 {
     /* position: fixed; */
     text-decoration: none;
     margin-top: -7rem;
